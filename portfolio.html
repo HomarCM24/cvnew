@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mi sitio CV </title>
+        <link rel="stylesheet" href="css/css-gg.css">
+
+        <link rel="shortcut icon" href="resources/logo.svg" type="image/svg">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/mobile.css">
+
+    </head>
+    <body>
+        <div class="main-content">
+            <aside>
+                <div class="profile">
+                    <img src="resources/avatar-116x116-02-2x.png" id="photo-profile" class="my-photo">
+                    <div>
+                        <h1 class="title">Angel Homar Coyotl Marcelino</h1>
+                        <div class="badge-profile">Programador</div>
+                        <div class="social">
+                            <a href="https://www.facebook.com/angel.coyotlmarcelino" target="_blank"><i class="gg-facebook"></i></a>
+                            <a href="x.com" target="_blank"><i class="gg-twitter"></i></a>
+                            <a href="https://www.instagram.com/who.is_angel.h/?hl=es" target="_blank"><i class="gg-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <ul class="contacts-block">
+                            <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;&nbsp;24 de Julio del 2004</li>
+                            <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;&nbsp;San Pablo del Monte, Tlax</li>
+                            <li class="contacts-block-item"><i class="gg-mail"></i><a href="homarcoyotl@gmail.com">&nbsp;&nbsp;homarcoyotl@gmail.com</a></li>
+                            <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;+52 22 11 72 86 05</li>
+                        </ul>
+                        <a href="resources/cv.pdf" class="btn">Descargar CV</a>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="resume">
+                <h2 class="title bordered"> Portfolio</h2>
+                <div class="portfolio">
+                    <img src="resources/cer1.jpg" alt="" onclick="showImage(this)" >
+                    <img src="resources/cer2.jpg" alt="" onclick="showImage(this)">
+                    <img src="resources/cer3.jpg" alt="" onclick="showImage(this)">
+                    <img src="resources/me2.jpg" alt="" onclick="showImage(this)">
+                    <img src="resources/me3.jpg" alt="" onclick="showImage(this)">
+                    <div class="modal" id="preview" onclick="cerrarModal()"><i class="gg-close"></i></div>
+                </div>
+
+                <header>
+                    <div class="menu-circle">
+                        <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                    </div>
+                    <div class="inner-menu js-menu">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="index.html">Acerca de</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="portfolio.html">Portafolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+
+            </section>
+        </div>
+        <footer>Autor: Angel Homar Coyotl Marcelino</footer>
+
+        <script src="js/site.js"></script>
+    </body>
+</html>
